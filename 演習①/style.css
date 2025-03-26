@@ -1,44 +1,68 @@
-body{
-    font-family:"Hiragino Kaku Gothic ProN","メイリオ",sans-serif;
+header{
+position:absolute;
+top:0px;
+left:0px;
+width:100%;
+height:60px;
+background-color:black;
 }
 
-h1{
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    border-left: 4px red solid;
-    background-color: #f1f1f1;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    width: 500px;
-    font-size: 20px;
+.logo{
+float:left;
+padding-left:10px;
+color:white;
+font-size:25px;
+line-height:60px;
 }
 
-form{
-    margin: 0 auto;
-    background-color: #fbfbfb;
-    border: 3px #ebebeb solid;
-    border-radius: 10px;
-    width:500px;
+header ul{
+float:right;
+line-height:40px;
 }
 
-form div{
-    padding: 15px;
+header ul li{
+float:left;
+list-style:none;
+padding-right:20px;
+color:white;
+font-size:18px;
 }
 
-.text, textarea, .dropdown{
-    border: 1px solid #dfdfdf;
-    padding: 5px;
-    color: #999;
-    background:#fff;
+main{
+clear:both;
 }
 
-.submit{
-    border: 1px solid lightgray;
-    padding: 4px 10px;
-    color: white;
-    background-color: #bfbfbf;
-    border-radius: 5px;
-    border-bottom: 2px solid gray;
+.main-container{
+width:95%;
+margin:0 auto;
+margin-top:70px;
+}
+
+.left{
+float:left;
+background-color:lightblue;
+width:70%;
+height:400px;
+margin-bottom:40px;
+}
+
+.right{
+float:left;
+background-color:skyblue;
+width:30%;
+height:400px;
+margin-bottom:40px;
+}
+
+footer{
+clear:left;
+width:100%;
+height:60px;
+position:absolute;
+bottom:0px;
+left:0px;
+color:white;
+background-color:black;
+text-align:center;
+line-height:60px;
 }
